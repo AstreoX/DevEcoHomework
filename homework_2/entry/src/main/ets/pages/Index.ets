@@ -7,7 +7,7 @@ const MAX_TEMP: number = 30;
 @Component
 struct Index {
   @State lightOn: boolean = true;
-  @State brightness: number = 50;
+  @State lightLevel: number = 50;
   @State acOn: boolean = false;
   @State temperature: number = 26;
   @State lockOn: boolean = false;
@@ -50,14 +50,14 @@ struct Index {
       this.CardHeader('客厅主灯', this.lightOn, '💡', (value: boolean): void => {
         this.lightOn = value;
       })
-      Text(this.lightOn ? `亮度${this.brightness}%` : '已关闭')
+      Text(this.lightOn ? `亮度${this.lightLevel}%` : '已关闭')
         .fontSize(15)
         .fontColor('#8E8E93')
         .width('100%')
       Row({ space: 12 }) {
         Text('🔅').fontSize(22)
         Slider({
-          value: this.brightness,
+          value: this.lightLevel,
           min: 0,
           max: 100,
           style: SliderStyle.OutSet
@@ -67,7 +67,7 @@ struct Index {
           .trackColor(OFF_COLOR)
           .trackThickness(4)
           .onChange((value: number): void => {
-            this.brightness = Math.round(value);
+            this.lightLevel = Math.round(value);
           })
         Text('🔆').fontSize(22)
       }
