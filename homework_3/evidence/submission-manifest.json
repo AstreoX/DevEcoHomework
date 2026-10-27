@@ -1,0 +1,363 @@
+{
+  "assignment": "Specified Ability 跳转与生命周期",
+  "verification": "PASS",
+  "ide_build": "DevEco Build Hap(s): BUILD SUCCESSFUL, exit code 0",
+  "screenshots": 11,
+  "files": [
+    {
+      "path": "作业_3_报告.docx",
+      "bytes": 1800659,
+      "sha256": "bc7805ffd76894e38c39cde046b6ad457e47644e8ef3e01acddac2a2e0409eb4"
+    },
+    {
+      "path": "作业_3_报告.md",
+      "bytes": 11383,
+      "sha256": "84062ca787b1e0448a8ee64cb2302909bbb0aac0ea73fc32c7e634f2b322fbeb"
+    },
+    {
+      "path": "作业_3_报告_长图.png",
+      "bytes": 3605724,
+      "sha256": "f76b56e9fc822359d5530f4ba08ec659b8297420a02328c5fab718733bddd42b"
+    },
+    {
+      "path": "homework_3/.gitignore",
+      "bytes": 133,
+      "sha256": "06525ad3d70bbef50da766f10905548f147490e8b51f8e1da00019191cb2f70c"
+    },
+    {
+      "path": "homework_3/AppScope/app.json5",
+      "bytes": 230,
+      "sha256": "4cf8be168ccb5b9f2d46b14f1964be122ac65895061856e7f8c06121bd1c42c8"
+    },
+    {
+      "path": "homework_3/AppScope/resources/base/element/string.json",
+      "bytes": 94,
+      "sha256": "9ee2432998f04410fe2243ece55f69e62a6c9fe3652af490b4d124d4395f0178"
+    },
+    {
+      "path": "homework_3/AppScope/resources/base/media/background.png",
+      "bytes": 91942,
+      "sha256": "497edeafc51af043c73e72ee8c4fbac4663357ef1ba275c0289f31a366b26239"
+    },
+    {
+      "path": "homework_3/AppScope/resources/base/media/foreground.png",
+      "bytes": 15325,
+      "sha256": "61a796d5a9fc5853e9cd0f1e3e730896a6bcb94a34a37765c4d1959bf64dfa43"
+    },
+    {
+      "path": "homework_3/AppScope/resources/base/media/layered_image.json",
+      "bytes": 109,
+      "sha256": "3d18dcd7ed9e7d3d2c54c20cb80a44eb4877c661131c68a46e20b6e19d0bb476"
+    },
+    {
+      "path": "homework_3/build-profile.json5",
+      "bytes": 798,
+      "sha256": "d925040c5752b4826b1ee4942bcd59f71a69326885ac11728ab3509f5c4218bd"
+    },
+    {
+      "path": "homework_3/code-linter.json5",
+      "bytes": 854,
+      "sha256": "f557c3bcdb40c64c986bffed9628310cc7a79fb7d2642c1c8b8d265fd92e25ad"
+    },
+    {
+      "path": "homework_3/dist/作业3-Specified-unsigned.hap",
+      "bytes": 220201,
+      "sha256": "26d2edf46e094e3b62989abc471d24eafb034a235a1eb8e414a1f520aaf7372a"
+    },
+    {
+      "path": "homework_3/entry/build-profile.json5",
+      "bytes": 540,
+      "sha256": "165c5e02e368cfae38401dbfc371a106ab3f5a8a1ed05078625c0f1c573476dc"
+    },
+    {
+      "path": "homework_3/entry/hvigorfile.ts",
+      "bytes": 227,
+      "sha256": "67cc02aa9ccf2f3a2c58e7fee4b6e3a00ffb6128c11f76b7fec5f00ad2d63581"
+    },
+    {
+      "path": "homework_3/entry/obfuscation-rules.txt",
+      "bytes": 1024,
+      "sha256": "c7f48577fcd27a346883a1a527653eff132cab29666133a49e1ec4d372ec5a93"
+    },
+    {
+      "path": "homework_3/entry/oh-package.json5",
+      "bytes": 181,
+      "sha256": "2859c2966ab1dd493d6f7ab66daa2fe97424d42eb688bb1ed3d680949116feba"
+    },
+    {
+      "path": "homework_3/entry/src/main/ets/entryability/EntryAbility.ets",
+      "bytes": 2697,
+      "sha256": "ad07c6a5635f1695bfa33e003a226f6e801ac3eb6cb78c8ea2ec5cec4fe48c5a"
+    },
+    {
+      "path": "homework_3/entry/src/main/ets/entrybackupability/EntryBackupAbility.ets",
+      "bytes": 522,
+      "sha256": "ae94f286234d41ad5fa9f70bfd11f61e2f609994d6f16687d1ce4ec442115e5d"
+    },
+    {
+      "path": "homework_3/entry/src/main/ets/myabilitystage/MyAbilityStage.ets",
+      "bytes": 2585,
+      "sha256": "e02f0c068577b796cd763e444c36d0b9e5094653e56580523b4cc496465f116a"
+    },
+    {
+      "path": "homework_3/entry/src/main/ets/pages/Index.ets",
+      "bytes": 4359,
+      "sha256": "1e4a5b7cf3576e2ec769f52072e89a71c76de79531c4c2ad8a61b73e8465c996"
+    },
+    {
+      "path": "homework_3/entry/src/main/ets/pages/LaunchPage.ets",
+      "bytes": 2753,
+      "sha256": "86c08bf485e14299168247b81cea6549e4b789c856ec34889286a8bb727243ea"
+    },
+    {
+      "path": "homework_3/entry/src/main/ets/pages/SpecifiedPage.ets",
+      "bytes": 4510,
+      "sha256": "d49e8fe78cb9a1e8df3b9459f1f0a351a8cbc0cf76c634ab7bf16faff9cf6d89"
+    },
+    {
+      "path": "homework_3/entry/src/main/ets/specifiedability/SpecifiedAbility.ets",
+      "bytes": 2144,
+      "sha256": "cdc64ec28a903a593639ff731c6417edad0385d5d6724c9c492d2e55f25790d6"
+    },
+    {
+      "path": "homework_3/entry/src/main/ets/utils/AbilityLauncher.ets",
+      "bytes": 1062,
+      "sha256": "03471266df8161ec97ef83ba9f3dd42fdb3afdf9bbab7757a8d0bd08f1eb74c9"
+    },
+    {
+      "path": "homework_3/entry/src/main/ets/utils/LifecycleLog.ets",
+      "bytes": 516,
+      "sha256": "96e6a784079e9855ca2fc686418d98988d9e1f186e4cbaca607abf31785167a1"
+    },
+    {
+      "path": "homework_3/entry/src/main/module.json5",
+      "bytes": 1910,
+      "sha256": "107e62edff7ba553f9cce834a15b009ade8f81ac5b93bd641d47db78ab7a1603"
+    },
+    {
+      "path": "homework_3/entry/src/main/resources/base/element/color.json",
+      "bytes": 105,
+      "sha256": "40dce2e2f49200e562eaad66d43f3212f4371cafd2c83c558c2cb6401434ef52"
+    },
+    {
+      "path": "homework_3/entry/src/main/resources/base/element/float.json",
+      "bytes": 100,
+      "sha256": "3ad317ad8b46b69683fce81f0e5b808dfde752594ec0334691917af7b5383a12"
+    },
+    {
+      "path": "homework_3/entry/src/main/resources/base/element/string.json",
+      "bytes": 461,
+      "sha256": "e83b130d38f9f4e754ea9fdeb817579af6b45032fe442ee2ab5ffa2aa25b89ff"
+    },
+    {
+      "path": "homework_3/entry/src/main/resources/base/media/background.png",
+      "bytes": 91942,
+      "sha256": "497edeafc51af043c73e72ee8c4fbac4663357ef1ba275c0289f31a366b26239"
+    },
+    {
+      "path": "homework_3/entry/src/main/resources/base/media/foreground.png",
+      "bytes": 8805,
+      "sha256": "57e549283f255505a649042f36a1d6793c307a69a94c9fa7e27a38af38ddbe8c"
+    },
+    {
+      "path": "homework_3/entry/src/main/resources/base/media/layered_image.json",
+      "bytes": 109,
+      "sha256": "3d18dcd7ed9e7d3d2c54c20cb80a44eb4877c661131c68a46e20b6e19d0bb476"
+    },
+    {
+      "path": "homework_3/entry/src/main/resources/base/media/startIcon.png",
+      "bytes": 20093,
+      "sha256": "567c7c0c7a321ca180e010ad880f0f7519f6d351ac2b9665e2ee710e7cfe7778"
+    },
+    {
+      "path": "homework_3/entry/src/main/resources/base/profile/backup_config.json",
+      "bytes": 36,
+      "sha256": "9447811de67729d65b6c0d76720ce53dad97f70a4b0bbe1946a8dc1c7de717f5"
+    },
+    {
+      "path": "homework_3/entry/src/main/resources/base/profile/main_pages.json",
+      "bytes": 88,
+      "sha256": "c41048e1d67220f2d1cfe86179a247200aaa9547d3b63d61ed960e0b6f1d3216"
+    },
+    {
+      "path": "homework_3/entry/src/main/resources/dark/element/color.json",
+      "bytes": 105,
+      "sha256": "d6be6bfa9cfce320f6bb9b92dd09614db27e16bc2c9c90edf057bd682dc3ecbf"
+    },
+    {
+      "path": "homework_3/entry/src/mock/mock-config.json5",
+      "bytes": 3,
+      "sha256": "8eb95bcbc154530931e15fc418c8b1fe991095671409552099ea1aa596999ede"
+    },
+    {
+      "path": "homework_3/entry/src/ohosTest/ets/test/Ability.test.ets",
+      "bytes": 1734,
+      "sha256": "8600c6681413e2ee3283671c6a67c2bb1421726559163aca8596ff17d2a389d6"
+    },
+    {
+      "path": "homework_3/entry/src/ohosTest/ets/test/List.test.ets",
+      "bytes": 99,
+      "sha256": "c2300b6cb78c4e2469e72ce7d0d79f5207bc5004f14cdac0bbf859da248dad15"
+    },
+    {
+      "path": "homework_3/entry/src/ohosTest/module.json5",
+      "bytes": 187,
+      "sha256": "a5b9e3dc7979f961a92ae014ad0f380212f6e83ea6090d512800250640b9bcc0"
+    },
+    {
+      "path": "homework_3/entry/src/test/List.test.ets",
+      "bytes": 105,
+      "sha256": "268e4980ef2fdfe0c7ff6a19402bc214ab90f25807998098d2513cc50e9dd86b"
+    },
+    {
+      "path": "homework_3/entry/src/test/LocalUnit.test.ets",
+      "bytes": 1624,
+      "sha256": "ab72e1fa03e7c61ec51a52fe56fd366f66aa1a4415e18c7953daf5be14f488b7"
+    },
+    {
+      "path": "homework_3/evidence/02-A-created.json",
+      "bytes": 40403,
+      "sha256": "63bc9bc7635d4f117117bea11a7faeb8ce09097c4531761bad765d417c667fd7"
+    },
+    {
+      "path": "homework_3/evidence/03-A-reused.json",
+      "bytes": 40425,
+      "sha256": "a07073eb48c80a46ade8c6f2741c7b69479245c5b7cf5094a0cfa7a4dac784db"
+    },
+    {
+      "path": "homework_3/evidence/04-B-created.json",
+      "bytes": 40403,
+      "sha256": "919a9a7e28e6b16e3d8edf0a0b0dc3ccd33602e54268947ed9af847502c56df1"
+    },
+    {
+      "path": "homework_3/evidence/05-A-restored.json",
+      "bytes": 40489,
+      "sha256": "e56479ea0208123e39a499a21f122a97117f8ff4a54cfb1a11664e02b6a33cda"
+    },
+    {
+      "path": "homework_3/evidence/06-A-from-entry.json",
+      "bytes": 40566,
+      "sha256": "b1e3d3c1fea0eace4f8bd3f3db398f43db28800b6e8e847825848fd18c41f466"
+    },
+    {
+      "path": "homework_3/evidence/07-A-recreated.json",
+      "bytes": 40443,
+      "sha256": "0b0b6f4d9e787957c96cb607d11bb29d7630ea14840b50660daa0db4ad575e7e"
+    },
+    {
+      "path": "homework_3/evidence/08-B-retained.json",
+      "bytes": 40467,
+      "sha256": "289e88be0cf7fbc801900fe6b146af19a370c1e616eca637280650f88775c5a0"
+    },
+    {
+      "path": "homework_3/evidence/09-final-A.json",
+      "bytes": 40507,
+      "sha256": "bd676480bc44335231322a4bba06236f35d6620dbc4fe47c6160fc853decc59f"
+    },
+    {
+      "path": "homework_3/evidence/AppLifecycle.log",
+      "bytes": 17038,
+      "sha256": "dd8793d4ed5aebac628db09d2f35d7c8c620d0ade705a5d36e80c6a07584974d"
+    },
+    {
+      "path": "homework_3/evidence/build.log",
+      "bytes": 2306,
+      "sha256": "ae10aad15ed768c29b13280b8c7a5e8711fb88426b5ab47aa0748fb650e13998"
+    },
+    {
+      "path": "homework_3/evidence/current-layout.json",
+      "bytes": 17796,
+      "sha256": "f894100f33ed68c0d4846d8e70a95f3982446b14cbb8869d197a480df6019a07"
+    },
+    {
+      "path": "homework_3/evidence/layout-launch.json",
+      "bytes": 10760,
+      "sha256": "967666f8f6676561413442bb4047eb5dfd231eef5b4e08994a034ecc297ce8c9"
+    },
+    {
+      "path": "homework_3/evidence/verification.json",
+      "bytes": 2452,
+      "sha256": "1214745511df761b69d8aa40e3ceb8a51e4b85288fdf0c6dad19327b3067a765"
+    },
+    {
+      "path": "homework_3/hvigor/hvigor-config.json5",
+      "bytes": 1481,
+      "sha256": "630f4ab2253217051068b08bc5f34abea0a63a95e28805065ddcbf9dfd620039"
+    },
+    {
+      "path": "homework_3/hvigorfile.ts",
+      "bytes": 227,
+      "sha256": "383227660c07fa9335caf3e65b8975c65fcbcc8b910ba84d0bc67b22afcd56cd"
+    },
+    {
+      "path": "homework_3/oh-package-lock.json5",
+      "bytes": 1002,
+      "sha256": "738d44a280f1bec5bbcac8cf183d8d02c87c856d45768a02dadd2feba404beef"
+    },
+    {
+      "path": "homework_3/oh-package.json5",
+      "bytes": 210,
+      "sha256": "ed8aae4db61af1d758cc07f4f49d6ddad067bde4b31818b06aeb440d4ed388b7"
+    },
+    {
+      "path": "homework_3/README.md",
+      "bytes": 3152,
+      "sha256": "2249fb189ea7a0b1c2c97866ea61df98aa67ca8d277d2d40af70d8a6439f958a"
+    },
+    {
+      "path": "homework_3/screenshots/01-launch.png",
+      "bytes": 326614,
+      "sha256": "021add0a48feb7cfe484843a509e8d1014aaa03c68c4b4d28d1167fa368fee7f"
+    },
+    {
+      "path": "homework_3/screenshots/02-A-created.png",
+      "bytes": 326614,
+      "sha256": "8494a464b5f505884ea462b08063d4e5b31f77435499f30552e12433ceb12762"
+    },
+    {
+      "path": "homework_3/screenshots/03-A-reused.png",
+      "bytes": 326614,
+      "sha256": "6054e2b101278f0d770e0ff80be2753b868dff1e9a4fe47ca5bef64d89ee0251"
+    },
+    {
+      "path": "homework_3/screenshots/04-B-created.png",
+      "bytes": 326614,
+      "sha256": "dfef94c7b2da5300484ecb75ac7c83864417ce204003a7c4e58873ac4f6c883a"
+    },
+    {
+      "path": "homework_3/screenshots/05-A-restored.png",
+      "bytes": 326614,
+      "sha256": "e95f9ccb93a0d24d0436c75d6b7d7a7aca774b296bda2a2bddb11d2e7ab0e8b6"
+    },
+    {
+      "path": "homework_3/screenshots/06-A-from-entry.png",
+      "bytes": 326614,
+      "sha256": "6e6afe8de917b2041b330ce7260f87c259a975531cb00f62ee3a05828ec9dacb"
+    },
+    {
+      "path": "homework_3/screenshots/07-A-recreated.png",
+      "bytes": 326614,
+      "sha256": "78d899f70e70147a572cd4243f7f40d9838d1930b55c080c18dda1018c8e65c7"
+    },
+    {
+      "path": "homework_3/screenshots/08-B-retained.png",
+      "bytes": 326614,
+      "sha256": "f9fba09ae787476e90657e6cb9afafddd27758cd018956ad4d930fdfd6627e3e"
+    },
+    {
+      "path": "homework_3/screenshots/09-final-A.png",
+      "bytes": 326614,
+      "sha256": "03006476967f58d4a66a57f9cb82e4854823fc578e0311618bf753247feb1e99"
+    },
+    {
+      "path": "homework_3/screenshots/10-deveco-source.png",
+      "bytes": 142212,
+      "sha256": "f7d1258c0e9986bda23edeeebe3df99108dc8b0fc75ec937de1541c9cb39710b"
+    },
+    {
+      "path": "homework_3/screenshots/11-deveco-build.png",
+      "bytes": 159952,
+      "sha256": "2230d2a6af6e84fbf818563fdb46b235019dc4f6cd7167eaf2b9a2e7bbed0d7c"
+    }
+  ]
+}

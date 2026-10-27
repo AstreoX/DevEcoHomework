@@ -1,0 +1,7 @@
+{
+  "src": [
+    "pages/LaunchPage",
+    "pages/SpecifiedPage",
+    "pages/Index"
+  ]
+}

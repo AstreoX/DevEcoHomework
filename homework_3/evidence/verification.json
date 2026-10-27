@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "device": "nova 16 Pro HarmonyOS 6.0.2 API 22",
+  "assertions": [
+    "same key reuses instance",
+    "different key creates instance",
+    "state retained independently",
+    "onNewWant increments receives",
+    "terminateSelf destroys instance",
+    "terminated key creates new instance"
+  ],
+  "observations": [
+    {
+      "scenario": "02-A-created",
+      "key": "A",
+      "instance": "S1",
+      "receiveCount": 1,
+      "retainedCount": 0,
+      "events": "onCreate\nonWindowStageCreate\nonForeground\nloadContent succeeded"
+    },
+    {
+      "scenario": "03-A-reused",
+      "key": "A",
+      "instance": "S1",
+      "receiveCount": 2,
+      "retainedCount": 2,
+      "events": "onCreate\nonWindowStageCreate\nonForeground\nloadContent succeeded\nonNewWant"
+    },
+    {
+      "scenario": "04-B-created",
+      "key": "B",
+      "instance": "S2",
+      "receiveCount": 1,
+      "retainedCount": 0,
+      "events": "onCreate\nonWindowStageCreate\nonForeground\nloadContent succeeded"
+    },
+    {
+      "scenario": "05-A-restored",
+      "key": "A",
+      "instance": "S1",
+      "receiveCount": 3,
+      "retainedCount": 2,
+      "events": "onCreate\nonWindowStageCreate\nonForeground\nloadContent succeeded\nonNewWant\nonBackground\nonNewWant\nonForeground"
+    },
+    {
+      "scenario": "06-A-from-entry",
+      "key": "A",
+      "instance": "S1",
+      "receiveCount": 4,
+      "retainedCount": 2,
+      "events": "onCreate\nonWindowStageCreate\nonForeground\nloadContent succeeded\nonNewWant\nonBackground\nonNewWant\nonForeground\nonBackground\nonNewWant\nonForeground"
+    },
+    {
+      "scenario": "07-A-recreated",
+      "key": "A",
+      "instance": "S3",
+      "receiveCount": 1,
+      "retainedCount": 0,
+      "events": "onCreate\nonWindowStageCreate\nonForeground\nloadContent succeeded"
+    },
+    {
+      "scenario": "08-B-retained",
+      "key": "B",
+      "instance": "S2",
+      "receiveCount": 2,
+      "retainedCount": 1,
+      "events": "onCreate\nonWindowStageCreate\nonForeground\nloadContent succeeded\nonBackground\nonNewWant\nonForeground"
+    },
+    {
+      "scenario": "09-final-A",
+      "key": "A",
+      "instance": "S3",
+      "receiveCount": 2,
+      "retainedCount": 0,
+      "events": "onCreate\nonWindowStageCreate\nonForeground\nloadContent succeeded\nonBackground\nonNewWant\nonForeground"
+    }
+  ]
+}

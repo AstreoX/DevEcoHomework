@@ -1,0 +1,131 @@
+10-27 10:03:40.465  3939  3939 I A00000/AppLifecycle: [1] [AbilityStage] onCreate
+10-27 10:03:40.519  3939  3939 I A00000/AppLifecycle: [2] [UIAbility] onCreate | launchReason=1
+10-27 10:03:40.519  3939  3939 I A00000/AppLifecycle: [3] [UIAbility] onConfigurationUpdate | colorMode=1
+10-27 10:03:40.520  3939  3939 I A00000/AppLifecycle: [4] [AbilityCallback] onAbilityCreate
+10-27 10:03:40.589  3939  3939 I A00000/AppLifecycle: [5] [UIAbility] onWindowStageCreate
+10-27 10:03:40.595  3939  3939 I A00000/AppLifecycle: [6] [AbilityCallback] onWindowStageCreate
+10-27 10:03:40.615  3939  3939 I A00000/AppLifecycle: [7] [UIAbility] onForeground
+10-27 10:03:40.615  3939  3939 I A00000/AppLifecycle: [8] [AbilityCallback] onAbilityForeground
+10-27 10:03:40.683  3939  3939 I A00000/AppLifecycle: [9] [UIAbility] loadContent succeeded | pages/LaunchPage
+10-27 10:03:40.684  3939  3939 I A00000/AppLifecycle: [10] [Environment] onConfigurationUpdated | colorMode=1
+10-27 10:03:40.686  3939  3939 I A00000/AppLifecycle: [11] [AbilityCallback] onWindowStageActive
+10-27 10:03:40.696  3939  3939 I A00000/AppLifecycle: [12] [Page(Launch)] aboutToAppear
+10-27 10:03:40.707  3939  3939 I A00000/AppLifecycle: [13] [Page(Launch)] onPageShow
+10-27 10:03:42.736  3939  3939 I A00000/AppLifecycle: [14] [Launcher] startAbility | key=A
+10-27 10:03:42.746  3939  3939 I A00000/AppLifecycle: [a92ab1067eb40e4, 3c26955, e5ca12] [15] [AbilityStage] onAcceptWant | key=A, flag=Specified_A
+10-27 10:03:42.781  3939  3939 I A00000/AppLifecycle: [a92ab1067eb40e4, 28e55a3, 2b3442f] [16] [AbilityCallback] onWindowStageInactive
+10-27 10:03:42.786  3939  3939 I A00000/AppLifecycle: [a92ab1067eb40e4, 800cc7, 376e187] [17] [UIAbility] onBackground
+10-27 10:03:42.790  3939  3939 I A00000/AppLifecycle: [a92ab1067eb40e4, 800cc7, 376e187] [18] [Page(Launch)] onPageHide
+10-27 10:03:42.838  3939  3939 I A00000/AppLifecycle: [a92ab1067eb40e4, 800cc7, 376e187] [19] [AbilityCallback] onAbilityBackground
+10-27 10:03:42.845  3939  3939 I A00000/AppLifecycle: [a92ab1067eb40e4, c7bee1, 26882e6] [20] [SpecifiedAbility] onCreate | key=A, instance=S1, receives=1
+10-27 10:03:42.846  3939  3939 I A00000/AppLifecycle: [a92ab1067eb40e4, c7bee1, 26882e6] [21] [AbilityCallback] onAbilityCreate
+10-27 10:03:42.876  3939  3939 I A00000/AppLifecycle: [a92ab1067eb40e4, c7bee1, 26882e6] [22] [SpecifiedAbility] onWindowStageCreate | key=A, instance=S1, receives=1
+10-27 10:03:42.877  3939  3939 I A00000/AppLifecycle: [a92ab1067eb40e4, c7bee1, 26882e6] [23] [AbilityCallback] onWindowStageCreate
+10-27 10:03:42.880  3939  3939 I A00000/AppLifecycle: [a92ab1067eb40e4, c7bee1, 26882e6] [24] [SpecifiedAbility] onForeground | key=A, instance=S1, receives=1
+10-27 10:03:42.880  3939  3939 I A00000/AppLifecycle: [a92ab1067eb40e4, c7bee1, 26882e6] [25] [AbilityCallback] onAbilityForeground
+10-27 10:03:42.934  3939  3939 I A00000/AppLifecycle: [a92ab1067eb40e4, dae51c, c7bee1] [26] [SpecifiedAbility] loadContent succeeded | key=A, instance=S1, receives=1
+10-27 10:03:42.935  3939  3939 I A00000/AppLifecycle: [a92ab1067eb40e4, 6a5295, 127db30] [27] [AbilityCallback] onWindowStageActive
+10-27 10:03:42.939  3939  3939 I A00000/AppLifecycle: [a92ab1067eb40e4, dae51c, c7bee1] [28] [Page(Specified)] aboutToAppear | key=A, instance=S1
+10-27 10:03:42.946  3939  3939 I A00000/AppLifecycle: [a92ab1067eb40e4, dae51c, c7bee1] [29] [Page(Specified)] onPageShow | key=A, instance=S1
+10-27 10:03:48.557  3939  3939 I A00000/AppLifecycle: [30] [Launcher] startAbility | key=A
+10-27 10:03:48.569  3939  3939 I A00000/AppLifecycle: [a92ab20684885b7, 3aed6b7, 76ecd3] [31] [AbilityStage] onAcceptWant | key=A, flag=Specified_A
+10-27 10:03:48.588  3939  3939 I A00000/AppLifecycle: [a92ab20684885b7, 56acdf, 153ad6f] [32] [SpecifiedAbility] onNewWant | key=A, instance=S1, receives=2
+10-27 10:03:51.362  3939  3939 I A00000/AppLifecycle: [33] [Launcher] startAbility | key=B
+10-27 10:03:51.367  3939  3939 I A00000/AppLifecycle: [a92ab3068758904, 51868d, 30dfb2f] [34] [AbilityStage] onAcceptWant | key=B, flag=Specified_B
+10-27 10:03:51.388  3939  3939 I A00000/AppLifecycle: [a92ab3068758904, 130d38, 1b5aebc] [35] [AbilityCallback] onWindowStageInactive
+10-27 10:03:51.389  3939  3939 I A00000/AppLifecycle: [a92ab3068758904, 8c7360, 2d62bc7] [36] [SpecifiedAbility] onBackground | key=A, instance=S1, receives=2
+10-27 10:03:51.390  3939  3939 I A00000/AppLifecycle: [a92ab3068758904, 8c7360, 2d62bc7] [37] [Page(Specified)] onPageHide | key=A, instance=S1
+10-27 10:03:51.425  3939  3939 I A00000/AppLifecycle: [a92ab3068758904, 8c7360, 2d62bc7] [38] [AbilityCallback] onAbilityBackground
+10-27 10:03:51.472  3939  3939 I A00000/AppLifecycle: [a92ab3068758904, 3c016cc, 39ca966] [39] [SpecifiedAbility] onCreate | key=B, instance=S2, receives=1
+10-27 10:03:51.472  3939  3939 I A00000/AppLifecycle: [a92ab3068758904, 3c016cc, 39ca966] [40] [AbilityCallback] onAbilityCreate
+10-27 10:03:51.487  3939  3939 I A00000/AppLifecycle: [a92ab3068758904, 3c016cc, 39ca966] [41] [SpecifiedAbility] onWindowStageCreate | key=B, instance=S2, receives=1
+10-27 10:03:51.487  3939  3939 I A00000/AppLifecycle: [a92ab3068758904, 3c016cc, 39ca966] [42] [AbilityCallback] onWindowStageCreate
+10-27 10:03:51.498  3939  3939 I A00000/AppLifecycle: [a92ab3068758904, 3c016cc, 39ca966] [43] [SpecifiedAbility] onForeground | key=B, instance=S2, receives=1
+10-27 10:03:51.498  3939  3939 I A00000/AppLifecycle: [a92ab3068758904, 3c016cc, 39ca966] [44] [AbilityCallback] onAbilityForeground
+10-27 10:03:51.529  3939  3939 I A00000/AppLifecycle: [a92ab3068758904, 218fcc6, 3c016cc] [45] [SpecifiedAbility] loadContent succeeded | key=B, instance=S2, receives=1
+10-27 10:03:51.530  3939  3939 I A00000/AppLifecycle: [a92ab3068758904, 1261aaf, 23d7e1a] [46] [AbilityCallback] onWindowStageActive
+10-27 10:03:51.534  3939  3939 I A00000/AppLifecycle: [a92ab3068758904, 218fcc6, 3c016cc] [47] [Page(Specified)] aboutToAppear | key=B, instance=S2
+10-27 10:03:51.537  3939  3939 I A00000/AppLifecycle: [a92ab3068758904, 218fcc6, 3c016cc] [48] [Page(Specified)] onPageShow | key=B, instance=S2
+10-27 10:03:55.902  3939  3939 I A00000/AppLifecycle: [49] [Launcher] startAbility | key=A
+10-27 10:03:55.906  3939  3939 I A00000/AppLifecycle: [a92ab4068bdc5a6, 339f5c8, 34ca91a] [50] [AbilityStage] onAcceptWant | key=A, flag=Specified_A
+10-27 10:03:55.921  3939  3939 I A00000/AppLifecycle: [a92ab4068bdc5a6, 2383f2, 839d98] [51] [SpecifiedAbility] onNewWant | key=A, instance=S1, receives=3
+10-27 10:03:55.922  3939  3939 I A00000/AppLifecycle: [a92ab4068bdc5a6, 2383f2, 839d98] [52] [Page(Specified)] onPageShow | key=A, instance=S1
+10-27 10:03:55.923  3939  3939 I A00000/AppLifecycle: [a92ab4068bdc5a6, 2383f2, 839d98] [53] [SpecifiedAbility] onForeground | key=A, instance=S1, receives=3
+10-27 10:03:55.923  3939  3939 I A00000/AppLifecycle: [a92ab4068bdc5a6, 2383f2, 839d98] [54] [AbilityCallback] onAbilityForeground
+10-27 10:03:55.937  3939  3939 I A00000/AppLifecycle: [a92ab4068bdc5a6, 89c8a, 27c664b] [55] [AbilityCallback] onWindowStageInactive
+10-27 10:03:55.937  3939  3939 I A00000/AppLifecycle: [a92ab4068bdc5a6, 3e01051, c09390] [56] [SpecifiedAbility] onBackground | key=B, instance=S2, receives=1
+10-27 10:03:55.939  3939  3939 I A00000/AppLifecycle: [a92ab4068bdc5a6, 3e01051, c09390] [57] [Page(Specified)] onPageHide | key=B, instance=S2
+10-27 10:03:55.947  3939  3939 I A00000/AppLifecycle: [a92ab4068bdc5a6, 3e01051, c09390] [58] [AbilityCallback] onAbilityBackground
+10-27 10:03:55.971  3939  3939 I A00000/AppLifecycle: [59] [AbilityCallback] onWindowStageActive
+10-27 10:03:59.023  3939  3939 I A00000/AppLifecycle: [a92ab5068f012c5, 1b3cc11, 3537f0f] [60] [UIAbility] onNewWant | launchReason=1
+10-27 10:03:59.027  3939  3939 I A00000/AppLifecycle: [a92ab5068f012c5, 1b3cc11, 3537f0f] [61] [Page(Launch)] onPageShow
+10-27 10:03:59.030  3939  3939 I A00000/AppLifecycle: [a92ab5068f012c5, 1b3cc11, 3537f0f] [62] [UIAbility] onForeground
+10-27 10:03:59.030  3939  3939 I A00000/AppLifecycle: [a92ab5068f012c5, 1b3cc11, 3537f0f] [63] [AbilityCallback] onAbilityForeground
+10-27 10:03:59.031  3939  3939 I A00000/AppLifecycle: [a92ab5068f012c5, 36f5259, 131de63] [64] [AbilityCallback] onWindowStageInactive
+10-27 10:03:59.033  3939  3939 I A00000/AppLifecycle: [a92ab5068f012c5, e7201a, 3576319] [65] [SpecifiedAbility] onBackground | key=A, instance=S1, receives=3
+10-27 10:03:59.038  3939  3939 I A00000/AppLifecycle: [a92ab5068f012c5, e7201a, 3576319] [66] [Page(Specified)] onPageHide | key=A, instance=S1
+10-27 10:03:59.043  3939  3939 I A00000/AppLifecycle: [a92ab5068f012c5, e7201a, 3576319] [67] [AbilityCallback] onAbilityBackground
+10-27 10:03:59.081  3939  3939 I A00000/AppLifecycle: [68] [AbilityCallback] onWindowStageActive
+10-27 10:04:01.384  3939  3939 I A00000/AppLifecycle: [69] [Launcher] startAbility | key=A
+10-27 10:04:01.391  3939  3939 I A00000/AppLifecycle: [a92ab606915e102, 11bbd68, 19b22c5] [70] [AbilityStage] onAcceptWant | key=A, flag=Specified_A
+10-27 10:04:01.408  3939  3939 I A00000/AppLifecycle: [a92ab606915e102, 25b6d8d, 7050fc] [71] [SpecifiedAbility] onNewWant | key=A, instance=S1, receives=4
+10-27 10:04:01.412  3939  3939 I A00000/AppLifecycle: [a92ab606915e102, 25b6d8d, 7050fc] [72] [Page(Specified)] onPageShow | key=A, instance=S1
+10-27 10:04:01.413  3939  3939 I A00000/AppLifecycle: [a92ab606915e102, 25b6d8d, 7050fc] [73] [SpecifiedAbility] onForeground | key=A, instance=S1, receives=4
+10-27 10:04:01.413  3939  3939 I A00000/AppLifecycle: [a92ab606915e102, 25b6d8d, 7050fc] [74] [AbilityCallback] onAbilityForeground
+10-27 10:04:01.415  3939  3939 I A00000/AppLifecycle: [a92ab606915e102, 3b19150, 32f7fa7] [75] [AbilityCallback] onWindowStageInactive
+10-27 10:04:01.438  3939  3939 I A00000/AppLifecycle: [a92ab606915e102, 34cdc81, 2bbb9e9] [76] [UIAbility] onBackground
+10-27 10:04:01.457  3939  3939 I A00000/AppLifecycle: [a92ab606915e102, 34cdc81, 2bbb9e9] [77] [Page(Launch)] onPageHide
+10-27 10:04:01.460  3939  3939 I A00000/AppLifecycle: [a92ab606915e102, 34cdc81, 2bbb9e9] [78] [AbilityCallback] onAbilityBackground
+10-27 10:04:01.478  3939  3939 I A00000/AppLifecycle: [79] [AbilityCallback] onWindowStageActive
+10-27 10:04:07.075  3939  3939 I A00000/AppLifecycle: [80] [AbilityCallback] onWindowStageInactive
+10-27 10:04:07.078  3939  3939 I A00000/AppLifecycle: [81] [Page(Launch)] onPageShow
+10-27 10:04:07.082  3939  3939 I A00000/AppLifecycle: [82] [UIAbility] onForeground
+10-27 10:04:07.082  3939  3939 I A00000/AppLifecycle: [83] [AbilityCallback] onAbilityForeground
+10-27 10:04:07.096  3939  3939 I A00000/AppLifecycle: [84] [SpecifiedAbility] onBackground | key=A, instance=S1, receives=4
+10-27 10:04:07.099  3939  3939 I A00000/AppLifecycle: [85] [Page(Specified)] onPageHide | key=A, instance=S1
+10-27 10:04:07.114  3939  3939 I A00000/AppLifecycle: [86] [AbilityCallback] onAbilityBackground
+10-27 10:04:07.116  3939  3939 I A00000/AppLifecycle: [87] [Page(Specified)] aboutToDisappear | key=A, instance=S1
+10-27 10:04:07.163  3939  3939 I A00000/AppLifecycle: [88] [SpecifiedAbility] onWindowStageDestroy | key=A, instance=S1, receives=4
+10-27 10:04:07.163  3939  3939 I A00000/AppLifecycle: [89] [AbilityCallback] onWindowStageDestroy
+10-27 10:04:07.163  3939  3939 I A00000/AppLifecycle: [90] [SpecifiedAbility] onDestroy | key=A, instance=S1, receives=4
+10-27 10:04:07.163  3939  3939 I A00000/AppLifecycle: [91] [AbilityCallback] onAbilityDestroy
+10-27 10:04:07.164  3939  3939 I A00000/AppLifecycle: [92] [AbilityCallback] onWindowStageActive
+10-27 10:04:08.129  3939  3939 I A00000/AppLifecycle: [a92ab106981cabc, 7f26, 3397a1e] [93] [UIAbility] onNewWant | launchReason=1
+10-27 10:04:10.038  3939  3939 I A00000/AppLifecycle: [94] [Launcher] startAbility | key=A
+10-27 10:04:10.043  3939  3939 I A00000/AppLifecycle: [a92ab7069a0964d, 11548d9, 38e5d27] [95] [AbilityStage] onAcceptWant | key=A, flag=Specified_A
+10-27 10:04:10.084  3939  3939 I A00000/AppLifecycle: [a92ab7069a0964d, 5d16fe, 357b529] [96] [AbilityCallback] onWindowStageInactive
+10-27 10:04:10.095  3939  3939 I A00000/AppLifecycle: [a92ab7069a0964d, 3f027a5, c05850] [97] [SpecifiedAbility] onCreate | key=A, instance=S3, receives=1
+10-27 10:04:10.095  3939  3939 I A00000/AppLifecycle: [a92ab7069a0964d, 3f027a5, c05850] [98] [AbilityCallback] onAbilityCreate
+10-27 10:04:10.106  3939  3939 I A00000/AppLifecycle: [a92ab7069a0964d, 3f027a5, c05850] [99] [SpecifiedAbility] onWindowStageCreate | key=A, instance=S3, receives=1
+10-27 10:04:10.106  3939  3939 I A00000/AppLifecycle: [a92ab7069a0964d, 3f027a5, c05850] [100] [AbilityCallback] onWindowStageCreate
+10-27 10:04:10.110  3939  3939 I A00000/AppLifecycle: [a92ab7069a0964d, 3f027a5, c05850] [101] [SpecifiedAbility] onForeground | key=A, instance=S3, receives=1
+10-27 10:04:10.110  3939  3939 I A00000/AppLifecycle: [a92ab7069a0964d, 3f027a5, c05850] [102] [AbilityCallback] onAbilityForeground
+10-27 10:04:10.130  3939  3939 I A00000/AppLifecycle: [a92ab7069a0964d, 2b0c414, 3f027a5] [103] [SpecifiedAbility] loadContent succeeded | key=A, instance=S3, receives=1
+10-27 10:04:10.131  3939  3939 I A00000/AppLifecycle: [a92ab7069a0964d, 2c56636, 2b2184c] [104] [UIAbility] onBackground
+10-27 10:04:10.133  3939  3939 I A00000/AppLifecycle: [a92ab7069a0964d, 2c56636, 2b2184c] [105] [Page(Launch)] onPageHide
+10-27 10:04:10.134  3939  3939 I A00000/AppLifecycle: [a92ab7069a0964d, 2c56636, 2b2184c] [106] [AbilityCallback] onAbilityBackground
+10-27 10:04:10.139  3939  3939 I A00000/AppLifecycle: [a92ab7069a0964d, 2b0c414, 3f027a5] [107] [Page(Specified)] aboutToAppear | key=A, instance=S3
+10-27 10:04:10.146  3939  3939 I A00000/AppLifecycle: [a92ab7069a0964d, 2b0c414, 3f027a5] [108] [Page(Specified)] onPageShow | key=A, instance=S3
+10-27 10:04:10.168  3939  3939 I A00000/AppLifecycle: [109] [AbilityCallback] onWindowStageActive
+10-27 10:04:12.900  3939  3939 I A00000/AppLifecycle: [110] [Launcher] startAbility | key=B
+10-27 10:04:12.905  3939  3939 I A00000/AppLifecycle: [a92ab8069cdc004, 284a238, 56e2e7] [111] [AbilityStage] onAcceptWant | key=B, flag=Specified_B
+10-27 10:04:12.918  3939  3939 I A00000/AppLifecycle: [a92ab8069cdc004, d68b24, 1cab403] [112] [SpecifiedAbility] onNewWant | key=B, instance=S2, receives=2
+10-27 10:04:12.920  3939  3939 I A00000/AppLifecycle: [a92ab8069cdc004, d68b24, 1cab403] [113] [Page(Specified)] onPageShow | key=B, instance=S2
+10-27 10:04:12.923  3939  3939 I A00000/AppLifecycle: [a92ab8069cdc004, d68b24, 1cab403] [114] [SpecifiedAbility] onForeground | key=B, instance=S2, receives=2
+10-27 10:04:12.925  3939  3939 I A00000/AppLifecycle: [a92ab8069cdc004, d68b24, 1cab403] [115] [AbilityCallback] onAbilityForeground
+10-27 10:04:12.927  3939  3939 I A00000/AppLifecycle: [a92ab8069cdc004, 138699e, 3432aca] [116] [AbilityCallback] onWindowStageInactive
+10-27 10:04:12.928  3939  3939 I A00000/AppLifecycle: [a92ab8069cdc004, 11d614b, 122c92c] [117] [SpecifiedAbility] onBackground | key=A, instance=S3, receives=1
+10-27 10:04:12.931  3939  3939 I A00000/AppLifecycle: [a92ab8069cdc004, 11d614b, 122c92c] [118] [Page(Specified)] onPageHide | key=A, instance=S3
+10-27 10:04:12.935  3939  3939 I A00000/AppLifecycle: [a92ab8069cdc004, 11d614b, 122c92c] [119] [AbilityCallback] onAbilityBackground
+10-27 10:04:12.990  3939  3939 I A00000/AppLifecycle: [120] [AbilityCallback] onWindowStageActive
+10-27 10:04:15.890  3939  3939 I A00000/AppLifecycle: [121] [Launcher] startAbility | key=A
+10-27 10:04:15.895  3939  3939 I A00000/AppLifecycle: [a92ab9069fd97b4, 2a6e22, 3e08054] [122] [AbilityStage] onAcceptWant | key=A, flag=Specified_A
+10-27 10:04:15.911  3939  3939 I A00000/AppLifecycle: [a92ab9069fd97b4, 13b5803, 30148ee] [123] [SpecifiedAbility] onNewWant | key=A, instance=S3, receives=2
+10-27 10:04:15.913  3939  3939 I A00000/AppLifecycle: [a92ab9069fd97b4, 13b5803, 30148ee] [124] [Page(Specified)] onPageShow | key=A, instance=S3
+10-27 10:04:15.915  3939  3939 I A00000/AppLifecycle: [a92ab9069fd97b4, 13b5803, 30148ee] [125] [SpecifiedAbility] onForeground | key=A, instance=S3, receives=2
+10-27 10:04:15.915  3939  3939 I A00000/AppLifecycle: [a92ab9069fd97b4, 13b5803, 30148ee] [126] [AbilityCallback] onAbilityForeground
+10-27 10:04:15.924  3939  3939 I A00000/AppLifecycle: [a92ab9069fd97b4, 66a275, 518ebc] [127] [AbilityCallback] onWindowStageInactive
+10-27 10:04:15.928  3939  3939 I A00000/AppLifecycle: [a92ab9069fd97b4, 15badf6, cccab] [128] [SpecifiedAbility] onBackground | key=B, instance=S2, receives=2
+10-27 10:04:15.929  3939  3939 I A00000/AppLifecycle: [a92ab9069fd97b4, 15badf6, cccab] [129] [Page(Specified)] onPageHide | key=B, instance=S2
+10-27 10:04:15.935  3939  3939 I A00000/AppLifecycle: [a92ab9069fd97b4, 15badf6, cccab] [130] [AbilityCallback] onAbilityBackground
+10-27 10:04:15.972  3939  3939 I A00000/AppLifecycle: [131] [AbilityCallback] onWindowStageActive

@@ -1,0 +1,15 @@
+# DevEco 与依赖缓存
+**/node_modules/
+**/oh_modules/
+**/.idea/
+**/.hvigor/
+**/.preview/
+**/build/
+**/local.properties
+
+# 本地报告生成过程及临时文件
+.work/
+.playwright-cli/
+output/
+~$*
+*.zip
