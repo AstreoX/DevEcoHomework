@@ -7,7 +7,7 @@
 | 作业一 | ArkTS 智能设备管理系统 | [homework_1](homework_1/) | [Markdown 报告](作业_1_报告.md) |
 | 作业二 | 智能家居控制界面 | [homework_2](homework_2/) | [Markdown 报告](作业_2_报告.md) |
 | 作业三 | Specified Ability 跳转与生命周期 | [homework_3](homework_3/) | [Markdown 报告](作业_3_报告.md) · [Word 报告](作业_3_报告.docx) · [完整长图](作业_3_报告_长图.png) |
-| 作业四 | 纵向 Tabs 分类页面 | [homework_4](homework_4/) | [Markdown 报告](作业_4_报告.md) · [Word 报告](作业_4_报告.docx) |
+| 作业四 | 纵向 Tabs 分类页面 | [homework_4](homework_4/) | [Markdown 报告](作业_4_报告.md) · [Word 报告](作业_4_报告.docx) · [完整长图](作业_4_报告_长图.png) |
 
 ## 作业三
 
