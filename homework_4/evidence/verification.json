@@ -1,0 +1,163 @@
+{
+  "status": "PASS",
+  "device": "nova 16 Pro HarmonyOS 6.0.2 API 22",
+  "date": "2026-11-02",
+  "assertions": [
+    "default activity selected",
+    "seven category clicks",
+    "selected category click stable",
+    "vertical swipe next",
+    "vertical swipe previous",
+    "cold start resets to activity",
+    "all labels visible",
+    "rail width matches reference",
+    "content centered",
+    "rail top aligned"
+  ],
+  "observations": [
+    {
+      "scenario": "01-default-activity",
+      "index": 3,
+      "title": "精彩活动",
+      "rail_ratio": 0.2697,
+      "content_bounds": [
+        641,
+        1390,
+        1034,
+        1505
+      ]
+    },
+    {
+      "scenario": "02-popular",
+      "index": 0,
+      "title": "热门课程",
+      "rail_ratio": 0.2697,
+      "content_bounds": [
+        641,
+        1390,
+        1034,
+        1505
+      ]
+    },
+    {
+      "scenario": "03-latest",
+      "index": 1,
+      "title": "最新课程",
+      "rail_ratio": 0.2697,
+      "content_bounds": [
+        641,
+        1390,
+        1034,
+        1505
+      ]
+    },
+    {
+      "scenario": "04-harmonyos",
+      "index": 2,
+      "title": "HarmonyOS",
+      "rail_ratio": 0.2697,
+      "content_bounds": [
+        566,
+        1390,
+        1109,
+        1505
+      ]
+    },
+    {
+      "scenario": "05-developer",
+      "index": 4,
+      "title": "开发者说",
+      "rail_ratio": 0.2697,
+      "content_bounds": [
+        641,
+        1390,
+        1034,
+        1505
+      ]
+    },
+    {
+      "scenario": "06-backend",
+      "index": 5,
+      "title": "后端开发",
+      "rail_ratio": 0.2697,
+      "content_bounds": [
+        641,
+        1390,
+        1034,
+        1505
+      ]
+    },
+    {
+      "scenario": "07-frontend",
+      "index": 6,
+      "title": "前端开发",
+      "rail_ratio": 0.2697,
+      "content_bounds": [
+        641,
+        1390,
+        1034,
+        1505
+      ]
+    },
+    {
+      "scenario": "08-activity-return",
+      "index": 3,
+      "title": "精彩活动",
+      "rail_ratio": 0.2697,
+      "content_bounds": [
+        641,
+        1390,
+        1034,
+        1505
+      ]
+    },
+    {
+      "scenario": "09-repeat-selected",
+      "index": 3,
+      "title": "精彩活动",
+      "rail_ratio": 0.2697,
+      "content_bounds": [
+        641,
+        1390,
+        1034,
+        1505
+      ]
+    },
+    {
+      "scenario": "10-swipe-next",
+      "index": 4,
+      "title": "开发者说",
+      "rail_ratio": 0.2697,
+      "content_bounds": [
+        641,
+        1390,
+        1034,
+        1505
+      ]
+    },
+    {
+      "scenario": "11-swipe-previous",
+      "index": 3,
+      "title": "精彩活动",
+      "rail_ratio": 0.2697,
+      "content_bounds": [
+        641,
+        1390,
+        1034,
+        1505
+      ]
+    },
+    {
+      "scenario": "12-cold-start",
+      "index": 3,
+      "title": "精彩活动",
+      "rail_ratio": 0.2697,
+      "content_bounds": [
+        641,
+        1390,
+        1034,
+        1505
+      ]
+    }
+  ]
+}

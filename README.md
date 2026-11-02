@@ -7,6 +7,7 @@
 | 作业一 | ArkTS 智能设备管理系统 | [homework_1](homework_1/) | [Markdown 报告](作业_1_报告.md) |
 | 作业二 | 智能家居控制界面 | [homework_2](homework_2/) | [Markdown 报告](作业_2_报告.md) |
 | 作业三 | Specified Ability 跳转与生命周期 | [homework_3](homework_3/) | [Markdown 报告](作业_3_报告.md) · [Word 报告](作业_3_报告.docx) · [完整长图](作业_3_报告_长图.png) |
+| 作业四 | 纵向 Tabs 分类页面 | [homework_4](homework_4/) | [Markdown 报告](作业_4_报告.md) · [Word 报告](作业_4_报告.docx) |
 
 ## 作业三
 
@@ -21,3 +22,10 @@
 - [未签名 HAP](homework_3/dist/作业3-Specified-unsigned.hap)用于本次模拟器验证；真机安装需配置自己的调试签名。
 
 详细步骤见[工程说明](homework_3/README.md)。Markdown 报告使用相对路径引用截图，克隆整个仓库即可查看。
+
+
+## 作业四
+
+使用 Tabs 与 TabContent 实现左侧七项分类和右侧居中标题，默认选中精彩活动，支持点击及内容区上下滑动切换。侧栏宽 27%，每项 52vp，选中项白底加粗。
+
+在 DevEco 中打开 `homework_4`。已通过 API 22 SDK 编译和 nova 16 Pro 模拟器的 12 个运行检查点。真实截图、布局树、日志和验证结果随工程保存，详见[工程说明](homework_4/README.md)。
